@@ -1,4 +1,4 @@
-≈var fs = require('fs');
+var fs = require('fs');
 var file = process.argv.slice(2).toString();
 
 var contents = fs.readFileSync(file);
